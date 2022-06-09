@@ -4,3 +4,71 @@ OS Name: Microsoft Windows 10 Home
 OS Version: 10.0.19043 N/A Build 19043
 Browser: Google Chrome version 102.0.5005.63
 
+Task 1
+Webside: https://buggy-testingcup.pgs-soft.com/task_1
+
+Requirements:
+Nazwa funkcjonalności:
+Dodawanie produktu do koszykaOpis funkcjonalności:
+Dodanie produktu do koszyka odbywa się poprzez kliknięcie w przycisk „Dodaj” znajdującego się w polu z danym produktem na liście produktów.
+
+Do koszyka zostanie dodana ilość produktów, wybrana za pomocą strzałek góra dół (pojawiających się po podświetleniu pola edycji) lub poprzez wpisanie z klawiatury w polu edycji ilości produktów.
+
+Łączna ilość produktów w koszyku nie może przekroczyć 100.
+
+Positive test cases
+Feature/Scenario: User is able to open a web application
+
+1.
+When user open web application
+Then web application is working
+
+Feature: Adding items to the basket
+
+2. 
+Scenario: User can add item to the basket. (Boundary values)
+
+Given web apllication is open and basket is empty
+When user add <1> item <Okulary> at a price of <15.54> to basket using arrows
+Then <1> item <Okulary> is in the basket 
+And a basket final price is <15.54> 
+
+3. 
+Given web application is open and basket is empty
+When user add <2> items <Piłka> at the price of <39.22> to basket using keyboard
+And add <2> items <Kubek> at the price of <5.12> to basket
+Then in the basket will be <4> items - <2 Piłka> and <2 Kubek>
+And a basket final price will be sum of <88.68>
+
+4.
+Scenario: User can add <100> items to the basket. (Boundary values)
+Given basket empty and final price is 0.
+When <100> items <Okulary> add to basket
+Then in a basket will be <100> items <Okulary>
+
+Feature: Deleting items from the basket.
+
+5. 
+Scenario: User can delete one of two items from the basket.
+
+Given basket with <1> item <Okulary> at the price of <15.45> 
+And <1> item <Piłka> at the price of <39.22>
+And a basket final items count is <2>
+And a basket final price is <54.76>
+When user click button <Usuń> next to item <Okulary> in the basket
+Then item <Okulary> is deleted from the basket
+And a basket final items count is <1>
+And a basket final price is <39.22>
+
+6.
+Scenario: User can delete all items from the basket.
+
+Given basket with <1> item <Okulary> at the price of <15.45> 
+And <1> item <Piłka> at the price of <39.22>
+And a basket final items count is <2>
+And a basket final price is <54.76>
+When user click button <Usuń> next to item <Okulary> and button <Usuń> next to item <Piłka> in the basket
+Then item <Okulary> and item <Piłka> is deleted from the basket
+And a basket final items count is <0>
+And a basket final price is <0>
+ 
