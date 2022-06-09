@@ -1,1 +1,6 @@
 Web application under test: https://buggy-testingcup.pgs-soft.com/
+
+OS Name: Microsoft Windows 10 Home
+OS Version: 10.0.19043 N/A Build 19043
+Browser: Google Chrome version 102.0.5005.63
+
