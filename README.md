@@ -50,7 +50,7 @@ Reporting bugs
 Using MS Office
 
 ## My test case example:
-
+[Test case example](https://github.com/beatamlynska/test-reports/blob/b640dc9345d206397fcddb7e9bf4a3f2f1968d79/Images/Test_case.jpg)
 
 ## My bug report example:
 
