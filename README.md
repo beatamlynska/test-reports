@@ -53,6 +53,7 @@ Using MS Office
 [Test case example](https://github.com/beatamlynska/test-reports/blob/b640dc9345d206397fcddb7e9bf4a3f2f1968d79/Images/Test_case.jpg)
 
 ## My bug report example:
+[Jira bug report](https://github.com/beatamlynska/test-reports/blob/b2e9b91a7a7c2a409368ee593e6a0baa153df539/Images/bug_jira.jpg)
 
 ## My Google Lighthouse test example: 
 [Lighthouse test example](https://github.com/beatamlynska/test-reports/blob/dce0306d8f324739a9e75010250e7b3db9fe95d9/Images/Lighthouse_test.jpg)
