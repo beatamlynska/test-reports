@@ -72,3 +72,15 @@ Then item <Okulary> and item <Piłka> is deleted from the basket
 And a basket final items count is <0>
 And a basket final price is <0>
  
+
+Negative test case
+
+Feature: Impossibility to add 101 items to the basket (The highest limit in requirements is 100)
+
+1.  
+Scenario: User can't add more than limit ( >100 ) items to the basket.
+
+Given basket is <0> item.
+When user add 101 items <Okulary> to the basket
+Then basket no change
+And there is messege that user exceeded the limit of items
