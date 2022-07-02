@@ -54,4 +54,5 @@ Using MS Office
 
 ## My bug report example:
 
-## My Google Lighthouse test example:
+## My Google Lighthouse test example: 
+[Lighthouse test example](https://github.com/beatamlynska/test-reports/blob/dce0306d8f324739a9e75010250e7b3db9fe95d9/Images/Lighthouse_test.jpg)
