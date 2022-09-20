@@ -20,7 +20,7 @@ August 2022 - now | Junior test engineer, OBR CTM, Gdynia
 
 ## Courses in progress:
 * Postman course - Udemy
-* Selenium Java basics course - Udemy
+* REST API testing - Udemy
 
 ## Browser used during testing:
 * Firefox
