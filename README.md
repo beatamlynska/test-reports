@@ -10,8 +10,8 @@ My name is Beata Młyńska and I am a postgraduate software tester student who w
 * KJ-TSW in Torun - finished in 2019 - Master's degree
 
 ## Commercial experience:
-August 2022 - October 2022 | Junior test engineer | OBR CTM Gdynia
-November 2022 - now | DXC Technology Poland
+* August 2022 - October 2022 | Junior test engineer | OBR CTM Gdynia
+* November 2022 - now | DXC Technology Poland
 
 ## Finished courses:
 * Jira course - Udemy - June 2022
