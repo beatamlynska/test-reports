@@ -11,17 +11,20 @@ My name is Beata Młyńska and I am a postgraduate software tester student who w
 
 ## Commercial experience:
 * August 2022 - October 2022 | Junior test engineer | OBR CTM Gdynia
-* November 2022 - now | DXC Technology Poland
+* November 2022 - now | Junior tester| DXC Technology Poland
 
 ## Finished courses:
 * Jira course - Udemy - June 2022
 * Git course - Udemy - June 2022
 * SQL basics course - Udemy - September 2022
 * Practical software tester course - Udemy - September 2022
+* Postman course - Udemy - November 2022
+* Agile methodology - December 2022
 
 ## Courses in progress:
-* Postman course - Udemy
+* Javascript - Udemy
 * REST API testing course - Udemy
+* Cypress - Udemy
 
 ## Browser used during testing:
 * Firefox
@@ -31,13 +34,14 @@ My name is Beata Młyńska and I am a postgraduate software tester student who w
 
 ## Know in basics:
 * SQL
+* Swagger
 * Jira
 * Git (GitBash, GitHub, GitLab)
 * TestLink
 * Postman
 * Trello
 * Devtools
-* PickPick
+* ScreenToGif
 * Sharex
 * GoFullPage
 * JSON Viewer
@@ -46,7 +50,7 @@ My name is Beata Młyńska and I am a postgraduate software tester student who w
 * BDD and TDD
 * JMeter
 
-## Tech skills in basics:
+## Tech skills:
 * Software testing
 * Creating test cases and scenarios
 * Reporting bugs
